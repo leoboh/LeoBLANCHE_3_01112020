@@ -2,9 +2,12 @@ body {
   margin: 0;
 }
 
+/* NAV */
+
 .div_logo_nav {
   width: 100%;
   text-align: center;
+  height: 64px;
 }
 
 .logo_nav {
@@ -13,8 +16,13 @@ body {
 }
 
 .div_header_localisation {
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_icone_nav {
+  margin-right: 10px;
 }
 
 /* SECTION 1 */
