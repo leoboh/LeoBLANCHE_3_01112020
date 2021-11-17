@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.div_logo_nav_menufr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.div_icone_nav_menufr {
+  width: 10%;
+  text-align: center;
+}
+
+.logo_nav_menufr {
+  width: 60%;
+}
