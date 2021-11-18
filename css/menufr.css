@@ -6,6 +6,8 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .div_icone_nav_menufr {
@@ -15,4 +17,5 @@ body {
 
 .logo_nav_menufr {
   width: 60%;
+  margin-left: 10%;
 }
