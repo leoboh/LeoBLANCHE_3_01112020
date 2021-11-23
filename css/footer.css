@@ -1,0 +1,46 @@
+footer {
+  padding-left: 16px;
+  background-color: #3c3c3c;
+}
+
+.logo_footer {
+  width: 30%;
+  margin-top: 32px;
+}
+
+.div_p_footer1 {
+  display: flex;
+  margin: 20px 0 0px 0;
+  color: white;
+}
+
+.div_p_footer2 {
+  display: flex;
+  margin: 10px 0 0px 0;
+  color: white;
+}
+
+.div_icone_footer {
+  margin-right: 10px;
+}
+
+.icon_footer_2 {
+  font-size: small;
+}
+
+.p_footer {
+  margin: 0;
+}
+
+.p_footer1 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.p_footer2 {
+  padding-bottom: 32px;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 0;
+}

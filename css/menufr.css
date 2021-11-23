@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+/* ========================== */
+/* ========================== */
+/* ========== NAV =========== */
+/* ========================== */
+/* ========================== */
+
 .div_logo_nav_menufr {
   width: 100%;
   display: flex;
@@ -16,6 +22,49 @@ body {
 }
 
 .logo_nav_menufr {
-  width: 60%;
+  width: 200px;
   margin-left: 10%;
+}
+
+/* ========================== */
+/* ========================== */
+/* ========= PHOTO ========== */
+/* ========================== */
+/* ========================== */
+
+.img_img {
+  width: 100%;
+  position: absolute;
+}
+
+/* ========================== */
+/* ========================== */
+/* ======= SECTION 1 ======== */
+/* ========================== */
+/* ========================== */
+
+.section1_menufr {
+  position: relative;
+  background-color: white;
+  top: 200px;
+  border-radius: 35px 35px 0 0;
+}
+
+.div_titre_menufr {
+  display: flex;
+  padding-top: 8px;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.h2_section1_menufr {
+  margin-left: 16px;
+  margin-right: 35%;
+}
+
+.h3_section1_menufr {
+  margin-left: 16px;
+}
+
+.div_plat_section1_menufr {
 }
