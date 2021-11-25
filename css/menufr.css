@@ -67,4 +67,18 @@ body {
 }
 
 .div_plat_section1_menufr {
+  box-shadow: 0 0 10px;
+  border-radius: 20px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: end;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.h4_plat_section1_menufr,
+.p_plat_section1_menufr,
+.span_plat_section1_menufr {
+  margin: 8px;
 }
