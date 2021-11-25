@@ -45,9 +45,10 @@ body {
 
 .section1_menufr {
   position: relative;
-  background-color: white;
+  background-color: #f5f3f3;
   top: 200px;
   border-radius: 35px 35px 0 0;
+  padding-bottom: 75px;
 }
 
 .div_titre_menufr {
@@ -64,10 +65,14 @@ body {
 
 .h3_section1_menufr {
   margin-left: 16px;
+  width: 50px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #54d7b3a6;
 }
 
 .div_plat_section1_menufr {
-  box-shadow: 0 0 10px;
+  box-shadow: 00 0 11px #d7d7d7;
+  background-color: white;
   border-radius: 20px;
   width: 90%;
   margin: auto;
@@ -81,4 +86,33 @@ body {
 .p_plat_section1_menufr,
 .span_plat_section1_menufr {
   margin: 8px;
+}
+
+.div_block3_menufr,
+.div_block2_menufr {
+  padding-top: 8px;
+}
+
+/* bouton commander */
+
+.div_btn_menu {
+  width: 175px;
+  text-align: center;
+  border-radius: 50px;
+  margin: auto;
+  background: linear-gradient(#ff79da, #9356dc);
+  margin-top: 50px;
+}
+
+.btn_menu {
+  padding: 15px;
+  color: white;
+  background: linear-gradient(#ff79da, #9356dc);
+  border: 0;
+  font-size: 1em;
+}
+
+/* FOOTER MENUFR */
+footer {
+  margin-top: 200px;
 }
