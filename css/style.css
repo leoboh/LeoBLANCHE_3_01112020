@@ -173,6 +173,8 @@ body {
 
 .div_info_resto {
   display: flex;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
 }
 
 .h2_info_resto {
@@ -188,8 +190,22 @@ body {
   margin-right: 16px;
 }
 
-.div_coeur:hover {
-  background: linear-gradient(#ff79da, #9356dc);
+.coeur1 {
+  position: relative;
+  top: 2px;
+  right: 0;
+}
+
+.coeur2 {
+  display: none;
+}
+
+.div_coeur:hover .coeur1 {
+  display: none;
+}
+
+.div_coeur:hover .coeur2 {
+  display: block;
 }
 
 .margin_section3 {
