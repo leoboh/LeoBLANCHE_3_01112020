@@ -122,11 +122,18 @@ body {
 .p_plat_section1_menufr,
 .span_plat_section1_menufr {
   margin: 8px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .div_block3_menufr,
 .div_block2_menufr {
   padding-top: 8px;
+}
+
+.div_plat_entree {
+  overflow: hidden;
 }
 
 /* ----------------------- */
