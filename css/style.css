@@ -2,6 +2,13 @@ body {
   margin: 0;
 }
 
+p,
+h1,
+h2,
+h3,
+.p_footer2 {
+  font-family: "Roboto", sans-serif;
+}
 /* ========================== */
 /* ========================== */
 /* ========== NAV =========== */
@@ -225,6 +232,7 @@ body {
 
 footer {
   padding-left: 16px;
+  padding-bottom: 32px;
   background-color: #3c3c3c;
 }
 
@@ -264,8 +272,8 @@ footer {
 }
 
 .p_footer2 {
-  padding-bottom: 32px;
   margin-top: 0;
   color: white;
   margin-bottom: 0;
+  text-decoration: none;
 }
