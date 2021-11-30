@@ -6,9 +6,107 @@ p,
 h1,
 h2,
 h3,
+h4,
 .p_footer2 {
   font-family: "Roboto", sans-serif;
 }
+
+/* ========================== */
+/* ========================== */
+/* ========= LOADER ========= */
+/* ========================== */
+/* ========================== */
+
+.section_loader {
+  background: #ffb1b100;
+  height: 2200px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  animation: keystoploader 0.5s linear 3s both;
+}
+
+.span_loader {
+  width: 50px;
+  height: 50px;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: 5px;
+  border-radius: 50px;
+  border: 6px solid #9356dc;
+  position: relative;
+}
+
+.span_loader:after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  border: 6px solid transparent;
+  border-top-color: #ff79da;
+  border-radius: 50px;
+  -webkit-animation: keyloader 3s linear infinite; /* pour ancienne version chrome */
+  -moz-animation: keyloader 3s linear infinite; /* pour ancienne version firefox */
+  animation: keyloader 3s linear infinite;
+}
+
+.p_loader {
+  margin-top: 415px;
+  margin-right: auto;
+  margin-left: 5px;
+  font-size: 2em;
+}
+
+/* ========================== */
+/* === KEYFRAMES LOADER ===== */
+/* ========================== */
+
+@keyframes keyloader {
+  0% {
+    -moz-transform: rotate(0deg); /* pour ancienne version firefox */
+    -webkit-transform: rotate(0deg); /* pour ancienne version chrome */
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg); /* pour ancienne version firefox */
+    -webkit-transform: rotate(360deg); /* pour ancienne version chrome */
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes keyloader {
+  0% {
+    -moz-transform: rotate(0deg); /* pour ancienne version firefox */
+    -webkit-transform: rotate(0deg); /* pour ancienne version chrome */
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg); /* pour ancienne version firefox */
+    -webkit-transform: rotate(360deg); /* pour ancienne version chrome */
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes keyloader {
+  0% {
+    -moz-transform: rotate(0deg); /* pour ancienne version firefox */
+    -webkit-transform: rotate(0deg); /* pour ancienne version chrome */
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg); /* pour ancienne version firefox */
+    -webkit-transform: rotate(360deg); /* pour ancienne version chrome */
+    transform: rotate(360deg);
+  }
+}
+@keyframes keystoploader {
+  0% {
+    background: white;
+  }
+}
+
 /* ========================== */
 /* ========================== */
 /* ========== NAV =========== */
