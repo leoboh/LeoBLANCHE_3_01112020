@@ -124,6 +124,7 @@ h4,
   justify-content: space-between;
   height: 60px;
   overflow: hidden;
+  animation: animplat 3s linear both;
 }
 
 .h4_plat_section1_menufr,
@@ -142,6 +143,20 @@ h4,
 
 .div_plat_entree {
   overflow: hidden;
+}
+
+/* ----------------------- */
+/* ----------------------- */
+/* ----------------------- */
+/*   ANIMATION POPUP PLAT  */
+/* ----------------------- */
+/* ----------------------- */
+/* ----------------------- */
+
+@keyframes animplat {
+  0% {
+    height: 0px;
+  }
 }
 
 /* ----------------------- */

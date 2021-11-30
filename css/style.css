@@ -28,6 +28,7 @@ h4,
   -webkit-animation: keystoploader 0.5s linear 3s both;
   -moz-animation: keystoploader 0.5s linear 3s both;
   animation: keystoploader 0.5s linear 3s both;
+  display: none;
 }
 
 .span_loader {
