@@ -19,12 +19,14 @@ h4,
 
 .section_loader {
   background: #ffb1b100;
-  height: 2200px;
+  height: 2131px;
   width: 100%;
   z-index: 1;
   position: absolute;
   text-align: center;
   display: flex;
+  -webkit-animation: keystoploader 0.5s linear 3s both;
+  -moz-animation: keystoploader 0.5s linear 3s both;
   animation: keystoploader 0.5s linear 3s both;
 }
 
@@ -55,10 +57,14 @@ h4,
 }
 
 .p_loader {
+  color: #00000000;
   margin-top: 415px;
   margin-right: auto;
   margin-left: 5px;
   font-size: 2em;
+  -webkit-animation: keystoploader2 0.5s linear 3s both;
+  -moz-animation: keystoploader2 0.5s linear 3s both;
+  animation: keystoploader2 0.5s linear 3s both;
 }
 
 /* ========================== */
@@ -101,9 +107,36 @@ h4,
     transform: rotate(360deg);
   }
 }
+/* ========================== */
 @keyframes keystoploader {
   0% {
     background: white;
+  }
+}
+@-webkit-keyframes keystoploader {
+  0% {
+    background: white;
+  }
+}
+@-moz-keyframes keystoploader {
+  0% {
+    background: white;
+  }
+}
+/* ========================== */
+@keyframes keystoploader2 {
+  0% {
+    color: black;
+  }
+}
+@-webkit-keyframes keystoploader2 {
+  0% {
+    color: black;
+  }
+}
+@-moz-keyframes keystoploader2 {
+  0% {
+    color: black;
   }
 }
 
