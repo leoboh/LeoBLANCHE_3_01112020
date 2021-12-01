@@ -85,9 +85,11 @@ h4,
 @keyframes displayloader {
   from {
     opacity: 1;
+    z-index: 1;
   }
   to {
     opacity: 0;
+    z-index: -1;
   }
 }
 
@@ -129,7 +131,7 @@ h4,
 .section_1 {
   width: 100%;
   height: 275px;
-  background-color: #f5f3f3;
+  background-color: #5656560f;
 }
 
 .h1_section1 {
@@ -148,7 +150,7 @@ h4,
 }
 
 .div_bouton_h1 {
-  width: 200px;
+  width: 225px;
   text-align: center;
   border-radius: 50px;
   margin: auto;
@@ -220,7 +222,7 @@ h4,
 /* ========================== */
 
 .section3 {
-  background-color: #f5f3f3;
+  background-color: #5656560f;
 }
 
 .h1_section3 {
