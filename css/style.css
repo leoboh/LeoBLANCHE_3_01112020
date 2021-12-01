@@ -34,7 +34,7 @@ h4,
   position: absolute;
   text-align: center;
   display: flex;
-  animation: displayloader 1s linear 4s both;
+  animation: displayloader 1s linear 3s both;
 }
 
 .span_loader {
@@ -297,6 +297,7 @@ h4,
 
 .div_coeur:hover .coeur2 {
   display: block;
+  animation: animcoeur 1.5s linear both;
 }
 
 .margin_section3 {
@@ -308,6 +309,12 @@ h4,
   color: black;
 }
 
+/* ANIM COEUR */
+@keyframes animcoeur {
+  from {
+    transform: scale(0);
+  }
+}
 /* =========================== */
 /* =========================== */
 /* ========= FOOTER ========== */
