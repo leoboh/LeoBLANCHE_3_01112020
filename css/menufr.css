@@ -124,7 +124,6 @@ h4,
   justify-content: space-between;
   height: 60px;
   overflow: hidden;
-  animation: animplat 3s linear both;
 }
 
 .h4_plat_section1_menufr,
@@ -153,9 +152,69 @@ h4,
 /* ----------------------- */
 /* ----------------------- */
 
+.div_anim_entree_1 {
+  animation: animplat 1s linear both;
+}
+.div_anim_entree_2 {
+  animation: animplat 1s linear 0.5s both;
+}
+.div_anim_entree_3 {
+  animation: animplat 1s linear 1s both;
+}
+.div_anim_entree_4 {
+  animation: animplat 1s linear 1.5s both;
+}
+
+.div_anim_plat_1 {
+  animation: animplat 1s linear 1.5s both;
+}
+.div_anim_plat_2 {
+  animation: animplat 1s linear 2s both;
+}
+.div_anim_plat_3 {
+  animation: animplat 1s linear 2.5s both;
+}
+
+.div_anim_dessert_1 {
+  animation: animplat 1s linear 3s both;
+}
+.div_anim_dessert_2 {
+  animation: animplat 1s linear 3.5s both;
+}
+.div_anim_dessert_3 {
+  animation: animplat 1s linear 4s both;
+}
+
+/* special menu "note enchantée" */
+
+.div_anim_plat_1_nte {
+  animation: animplat 1s linear 2s both;
+}
+.div_anim_plat_2_nte {
+  animation: animplat 1s linear 2.5s both;
+}
+.div_anim_plat_3_nte {
+  animation: animplat 1s linear 3s both;
+}
+
+.div_anim_dessert_1_nte {
+  animation: animplat 1s linear 3.5s both;
+}
+.div_anim_dessert_2_nte {
+  animation: animplat 1s linear 4s both;
+}
+.div_anim_dessert_3_nte {
+  animation: animplat 1s linear 4.5s both;
+}
+
 @keyframes animplat {
-  0% {
-    height: 0px;
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
