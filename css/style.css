@@ -1,7 +1,6 @@
 /* ============================================================================== */
 /* ============================================================================== */
 
-
 /* ========================== */
 /* ========================== */
 /* ==== BODY & POLICE ======= */
@@ -28,17 +27,14 @@ h4,
 /* ========================== */
 
 .section_loader {
-  background: #ffb1b100;
+  background: #fff;
   height: 2131px;
   width: 100%;
   z-index: 1;
   position: absolute;
   text-align: center;
   display: flex;
-  -webkit-animation: keystoploader 0.5s linear 3s both;
-  -moz-animation: keystoploader 0.5s linear 3s both;
-  animation: keystoploader 0.5s linear 3s both;
-  display: none;
+  animation: displayloader 1s linear 4s both;
 }
 
 .span_loader {
@@ -62,20 +58,15 @@ h4,
   border: 6px solid transparent;
   border-top-color: #ff79da;
   border-radius: 50px;
-  -webkit-animation: keyloader 3s linear infinite; /* pour ancienne version chrome */
-  -moz-animation: keyloader 3s linear infinite; /* pour ancienne version firefox */
-  animation: keyloader 3s linear infinite;
+  animation: keyloader 2s linear infinite;
 }
 
 .p_loader {
-  color: #00000000;
+  color: black;
   margin-top: 415px;
   margin-right: auto;
   margin-left: 5px;
   font-size: 2em;
-  -webkit-animation: keystoploader2 0.5s linear 3s both;
-  -moz-animation: keystoploader2 0.5s linear 3s both;
-  animation: keystoploader2 0.5s linear 3s both;
 }
 
 /* ========================== */
@@ -83,71 +74,20 @@ h4,
 /* ========================== */
 
 @keyframes keyloader {
-  0% {
-    -moz-transform: rotate(0deg); /* pour ancienne version firefox */
-    -webkit-transform: rotate(0deg); /* pour ancienne version chrome */
+  from {
     transform: rotate(0deg);
   }
-  100% {
-    -moz-transform: rotate(360deg); /* pour ancienne version firefox */
-    -webkit-transform: rotate(360deg); /* pour ancienne version chrome */
+  to {
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes keyloader {
-  0% {
-    -moz-transform: rotate(0deg); /* pour ancienne version firefox */
-    -webkit-transform: rotate(0deg); /* pour ancienne version chrome */
-    transform: rotate(0deg);
+
+@keyframes displayloader {
+  from {
+    opacity: 1;
   }
-  100% {
-    -moz-transform: rotate(360deg); /* pour ancienne version firefox */
-    -webkit-transform: rotate(360deg); /* pour ancienne version chrome */
-    transform: rotate(360deg);
-  }
-}
-@-moz-keyframes keyloader {
-  0% {
-    -moz-transform: rotate(0deg); /* pour ancienne version firefox */
-    -webkit-transform: rotate(0deg); /* pour ancienne version chrome */
-    transform: rotate(0deg);
-  }
-  100% {
-    -moz-transform: rotate(360deg); /* pour ancienne version firefox */
-    -webkit-transform: rotate(360deg); /* pour ancienne version chrome */
-    transform: rotate(360deg);
-  }
-}
-/* ========================== */
-@keyframes keystoploader {
-  0% {
-    background: white;
-  }
-}
-@-webkit-keyframes keystoploader {
-  0% {
-    background: white;
-  }
-}
-@-moz-keyframes keystoploader {
-  0% {
-    background: white;
-  }
-}
-/* ========================== */
-@keyframes keystoploader2 {
-  0% {
-    color: black;
-  }
-}
-@-webkit-keyframes keystoploader2 {
-  0% {
-    color: black;
-  }
-}
-@-moz-keyframes keystoploader2 {
-  0% {
-    color: black;
+  to {
+    opacity: 0;
   }
 }
 
