@@ -13,13 +13,32 @@ body {
 
 /* =========================================================== POLICE =============================================================== */
 
+@font-face {
+  font-family: "roboto";
+  src: url("/Police/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "robotomedium";
+  src: url("/Police/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "robotobold";
+  src: url("/Police/Roboto-Medium.ttf") format("truetype");
+}
+
 p,
-h1,
-h2,
-h3,
-h4,
 .p_footer2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "robotobold", sans-serif;
+}
+
+h3,
+h4 {
+  font-family: "robotomedium", sans-serif;
 }
 
 /* ========================================================== KEYFRAMES ============================================================= */
@@ -277,10 +296,12 @@ h4,
   display: flex;
   background-color: white;
   border-radius: 0 0 20px 20px;
+  height: 65px;
 }
 
 .h2_info_resto {
   margin: 10px 0 5px 16px;
+  font-size: 1.1em;
 }
 
 .p_info_resto {
