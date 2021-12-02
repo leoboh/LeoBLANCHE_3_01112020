@@ -15,15 +15,19 @@ body {
 
 @font-face {
   font-family: "roboto";
-  src: url("/Police/Roboto-Light.ttf") format("truetype");
+  src: url("/Police/Roboto/Roboto-Light.ttf") format("truetype");
 }
 @font-face {
-  font-family: "robotomedium";
-  src: url("/Police/Roboto-Regular.ttf") format("truetype");
+  font-family: "robotomregular";
+  src: url("/Police/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "robotobold";
-  src: url("/Police/Roboto-Medium.ttf") format("truetype");
+  src: url("/Police/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lobster";
+  src: url("/Police/Lobster/Lobster-Regular.ttf") format("truetype");
 }
 
 p,
@@ -39,7 +43,11 @@ h2,
 
 h3,
 h4 {
-  font-family: "robotomedium", sans-serif;
+  font-family: "robotoregular", sans-serif;
+}
+
+.h2_section1_menufr {
+  font-family: "lobster", sans-serif;
 }
 
 /* ========================================================== KEYFRAMES ============================================================= */
@@ -287,7 +295,7 @@ h4 {
 
 .div_prix {
   margin: auto;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .div_anim {
