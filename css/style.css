@@ -57,19 +57,20 @@ h4,
 
 .section_loader {
   background: #fff;
-  height: 2131px;
+  height: 100%;
   width: 100%;
   z-index: 1;
-  position: absolute;
+  position: fixed;
   text-align: center;
   display: flex;
-  animation: displayloader 1s linear 3s both;
+  animation: displayloader 1s linear 1s both;
 }
 
 .span_loader {
   width: 50px;
   height: 50px;
-  margin-top: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: 5px;
   border-radius: 50px;
@@ -92,7 +93,8 @@ h4,
 
 .p_loader {
   color: black;
-  margin-top: 415px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: auto;
   margin-left: 5px;
   font-size: 2em;
@@ -306,7 +308,7 @@ h4,
 
 .div_coeur:hover .coeur2 {
   display: block;
-  animation: animcoeur 1.5s linear both;
+  animation: animcoeur 0.25s linear both;
 }
 
 .margin_section3 {
