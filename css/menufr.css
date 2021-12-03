@@ -26,8 +26,8 @@ body {
   src: url("/Police/Roboto/Roboto-Medium.ttf") format("truetype");
 }
 @font-face {
-  font-family: "lobster";
-  src: url("/Police/Lobster/Lobster-Regular.ttf") format("truetype");
+  font-family: "Shrikhand";
+  src: url("/Police/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
 }
 
 p,
@@ -47,7 +47,7 @@ h4 {
 }
 
 .h2_section1_menufr {
-  font-family: "lobster", sans-serif;
+  font-family: "Shrikhand", sans-serif;
 }
 
 /* ========================================================== KEYFRAMES ============================================================= */
