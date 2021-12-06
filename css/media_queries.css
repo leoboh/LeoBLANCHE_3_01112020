@@ -7,6 +7,40 @@
 /* ================================================================================================================================== */
 /* ================================================================================================================================== */
 
+@media screen and (max-width: 370px) {
+  .div_bouton_fct {
+    width: 90%;
+    margin-left: 6.5%;
+  }
+  .h3_fct {
+    font-size: 0.8em;
+  }
+  .div_icone_fct {
+    top: 23px;
+  }
+  .div_nb_fct {
+    top: 19px;
+  }
+  .div_block_resto {
+    width: 90%;
+  }
+  .nouveau {
+    left: 155px;
+  }
+  .section_loader {
+    flex-direction: column;
+  }
+  .span_loader {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+  .p_loader {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: 25px;
+  }
+}
 @media screen and (min-width: 768px) {
   .div_disp_flx {
     display: flex;
@@ -53,9 +87,8 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
   .div_disp_flx {
-    width: 60%;
     margin: auto;
   }
 }

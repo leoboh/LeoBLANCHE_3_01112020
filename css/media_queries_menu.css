@@ -7,13 +7,27 @@
 /* ================================================================================================================================== */
 /* ================================================================================================================================== */
 
+@media screen and (max-width: 370px) {
+  .section1_menufr {
+    top: 135px;
+  }
+}
+@media screen and (min-width: 450px) {
+  footer {
+    position: relative;
+    bottom: -80px;
+  }
+  .section1_menufr {
+    top: 245px;
+  }
+}
 @media screen and (min-width: 768px) {
   footer {
     position: relative;
-    bottom: -325px;
+    bottom: -285px;
   }
   .section1_menufr {
-    top: 490px;
+    top: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
