@@ -1,3 +1,3 @@
 # Projet-3
-# repo github : https://github.com/leoboh/reservia/
-# url : https://leoboh.github.io/reservia/
+# repo github : https://github.com/leoboh/Projet-3/
+# url : 
