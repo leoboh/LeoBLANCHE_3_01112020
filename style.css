@@ -15,15 +15,15 @@ body {
 
 @font-face {
   font-family: "roboto";
-  src: url("/Police/Roboto-Light.ttf") format("truetype");
+  src: url("./Police/Roboto-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "robotomedium";
-  src: url("/Police/Roboto-Regular.ttf") format("truetype");
+  src: url("./Police/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "robotobold";
-  src: url("/Police/Roboto-Medium.ttf") format("truetype");
+  src: url("./Police/Roboto-Medium.ttf") format("truetype");
 }
 
 p,

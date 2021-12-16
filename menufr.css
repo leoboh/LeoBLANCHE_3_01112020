@@ -15,19 +15,19 @@ body {
 
 @font-face {
   font-family: "roboto";
-  src: url("/Police/Roboto/Roboto-Light.ttf") format("truetype");
+  src: url("./Police/Roboto/Roboto-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "robotomregular";
-  src: url("/Police/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("./Police/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "robotobold";
-  src: url("/Police/Roboto/Roboto-Medium.ttf") format("truetype");
+  src: url("./Police/Roboto/Roboto-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Shrikhand";
-  src: url("/Police/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+  src: url("./Police/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
 }
 
 p,
