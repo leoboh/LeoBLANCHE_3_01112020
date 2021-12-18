@@ -15,19 +15,21 @@ body {
 
 @font-face {
   font-family: "roboto";
-  src: url("./Police/Roboto-Light.ttf") format("truetype");
+  src: url("./fonts/Roboto-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "robotomedium";
-  src: url("./Police/Roboto-Regular.ttf") format("truetype");
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "robotobold";
-  src: url("./Police/Roboto-Medium.ttf") format("truetype");
+  src: url("./fonts/Roboto-Medium.ttf") format("truetype");
 }
 
 p,
-.p_footer2 {
+.p_footer2,
+.p_footer1,
+.p_footer {
   font-family: "roboto", sans-serif;
 }
 
@@ -185,6 +187,11 @@ h4 {
   border-radius: 50px;
   margin: auto;
   background: linear-gradient(#ff79da, #9356dc);
+}
+
+.div_bouton_h1:hover {
+  background: linear-gradient(#ff79daad, #9356dccf);
+  box-shadow: 1px 7px 10px #cbcbcbc7;
 }
 
 .p_bouton_h1 {
@@ -384,12 +391,15 @@ footer {
 
 .p_footer {
   margin: 0;
+  text-decoration: none;
+  color: white;
 }
 
 .p_footer1 {
   margin-top: 8px;
   margin-bottom: 8px;
   color: white;
+  text-decoration: none;
 }
 
 .p_footer2 {
